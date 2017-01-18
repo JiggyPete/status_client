@@ -20,9 +20,20 @@ Or install it yourself as:
 
     $ gem install status_client
 
+## Testing
+
+    $ rspec
+
 ## Usage
 
-TODO: Write usage instructions here
+In your Gemfile add:
+```ruby
+gem 'status_client'
+```
+and when you want to access the client call
+```ruby
+include StatusClient
+```
 
 ## Development
 
